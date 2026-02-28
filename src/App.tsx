@@ -71,6 +71,21 @@ function App() {
 
     draw();
   }, []);
+  const base = import.meta.env.BASE_URL;
+  const images = [
+    "1.png",
+    "2.jpg",
+    "3.jpg",
+    "4.png",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg",
+    "8.jpg",
+    "9.jpg",
+    "10.jpg",
+    "11.jpg",
+    "12.jpg",
+  ];
 
   return (
     <>
@@ -119,15 +134,25 @@ function App() {
         <section className="block">
           <h2>🔥团队氛围</h2>
 
+          
+          
           <div className="photo-grid">
 
-            {/* 把 src 改成你的图片路径 */}
-            <img src="/images/dinner.jpg" alt="团队聚餐" />
-            <img src="/images/conference.jpg" alt="会议出差" />
-            <img src="/images/team.jpg" alt="团建活动" />
-            <img src="/images/travel.jpg" alt="集体出游" />
+            {/* <img src="/images/1.png" alt="团队聚餐" />
+            <img src="/images/2.jpg" alt="会议出差" />
+            <img src="/images/3.jpg" alt="团建活动" />
+            <img src="/images/4.png" alt="集体出游" /> */}
+            {/* <img src={`${base}images/1.png`} alt="团队聚餐" />
+            <img src={`${base}images/2.jpg`} alt="会议出差" />
+            <img src={`${base}images/3.jpg`} alt="团建活动" />
+            <img src={`${base}images/4.png`} alt="集体出游" /> */}
+            {images.map((img) => (
+              <img key={img} src={`${base}images/${img}`} />
+            ))}
 
           </div>
+           
+          
 
         </section>
 
