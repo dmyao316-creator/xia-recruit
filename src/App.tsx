@@ -105,7 +105,10 @@ function App() {
               xiasy@cqupt.edu.cn
             </a>
           </p>
-          <p>招生群：927092792</p>
+          <p>
+            师兄师姐内部招生咨询群：927092792
+            <span className="tag">优先推荐</span>
+          </p>
         </section>
 
         <section className="block">
