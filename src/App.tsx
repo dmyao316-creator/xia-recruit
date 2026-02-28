@@ -106,7 +106,7 @@ function App() {
             </a>
           </p>
           <p>
-            师兄师姐内部招生咨询群：927092792
+            师兄师姐咨询群：927092792
             <span className="tag">优先推荐</span>
           </p>
         </section>
