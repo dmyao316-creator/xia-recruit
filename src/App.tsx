@@ -123,7 +123,7 @@ function App() {
         <section className="block">
           <h2>🔥招生计划</h2>
           <p>硕士、博士若干名</p>
-          <p>欢迎人工智能、计算机、软件工程、数学等相关专业同学报考。</p>
+          <p>欢迎人工智能、计算机、数学等相关专业同学报考。</p>
         </section>
 
         <section className="block">
